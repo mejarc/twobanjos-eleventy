@@ -1,0 +1,25 @@
+---
+title: 404: Not found
+permalink: 404.html
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>{{ site.name }}: {{ title }} </title>
+    <link rel="stylesheet" href="{{ '/css/all.css' | url }}">
+  </head>
+  <body>
+  <div class="page">
+	{% include '../partials/header.njk' %}
+  {% include '../partials/nav.njk' %}
+<main>
+ 404: page not found.
+</main>
+	{% include '../partials/footer.njk' %}
+</div>
+  <script src="{{ '/js/scripts.js' | url }}"></script>
+  </body>
+</html>
