@@ -1,5 +1,5 @@
-# eleventy-site
-Simple eleventy starter site.
+# Two Banjos At Once: Eleventy
+Four static pages.
 
 ### Start the dev server
 ```
