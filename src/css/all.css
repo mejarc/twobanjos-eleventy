@@ -9,7 +9,7 @@
 
 html {
   scroll-behavior: smooth;
-  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +19,7 @@ html {
 
 body {
   font: 16px/2 "Rubik", sans-serif;
+  font-display: optional;
   letter-spacing: 0.12em;
   /* better font smoothing, thanks @hsleonis,
   https://gist.github.com/hsleonis/55712b0eafc9b25f1944 */
@@ -32,6 +33,7 @@ h1,
 h2,
 h3 {
   font: 2.25rem "Trirong", serif;
+  font-display: optional;
   margin: 0 0 10px 0;
 }
 
